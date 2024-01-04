@@ -1,0 +1,5 @@
+*.png
+*.txt
+document/
+Doxyfile
+__pycache__
