@@ -71,7 +71,7 @@ class Yololoss(nn.Module):
         
         #loss weight
         lcls *= 0.05
-        lobj *= 1.-0
+        lobj *= 1.0
         lbox *= 0.5
         
         #total loss
